@@ -58,10 +58,6 @@ TenmaGabriel.on('message', message => {
         message.reply("ㅇㅇ ㅂㅇㄹ");
     }
 })
-
-TenmaGabriel.on('ready', () => {
-    console.log('I am ready!');
-  });
   
   TenmaGabriel.on('message', message => {
     if (message.content == 'g원본이미지') {
