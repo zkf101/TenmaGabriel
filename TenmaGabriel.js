@@ -61,12 +61,9 @@ TenmaGabriel.on('message', message => {
   
   TenmaGabriel.on('message', message => {
     if (message.content == 'g원본이미지') {
-        message.replay('http://blogfiles.naver.net/MjAxNzAyMTRfMjgw/MDAxNDg3MDc5ODI1NTQ1.6MLcaOqY5dQIZAoxVTl4rCE2iUCROpD3VmMWULKZnQEg.yenjhVZmOOm_f2rO2m1pFhrmgoy60NWqx-3y_PeoH2Yg.PNG.sooyong1492/%B0%A1%BA%EA%B8%B1_%B5%E5%B7%D3%BE%C6%BF%F4_06.mp4_001201434.png');
+        message.replay("http://blogfiles.naver.net/MjAxNzAyMTRfMjgw/MDAxNDg3MDc5ODI1NTQ1.6MLcaOqY5dQIZAoxVTl4rCE2iUCROpD3VmMWULKZnQEg.yenjhVZmOOm_f2rO2m1pFhrmgoy60NWqx-3y_PeoH2Yg.PNG.sooyong1492/%B0%A1%BA%EA%B8%B1_%B5%E5%B7%D3%BE%C6%BF%F4_06.mp4_001201434.png");
     }
-});
-
-
-
+})
 
 
 TenmaGabriel.login(process.env.BOT_TOKEN);
