@@ -99,74 +99,7 @@ TenmaGabriel.on('ready', () => {
 
 
 
-  TenmaGabriel.on('message', message => {
-    if (message.content === 'g메모') {
-        const buffer = fs.readFileSync('test.txt');
-        
-        const attachment = new Attachment(buffer, 'test.txt');
-
-
-        message.channel.send(`${message.author}, 여기있어!`, attachment);
-    }
-});
-
-TenmaGabriel.on('message', message => {
-    if (message.content === '갑분싸') {
-        const buffer = fs.readFileSync('tenor.gif');
-        
-        const attachment = new Attachment(buffer, 'tenor.gif');
-
-
-        message.channel.send(`${message.author}`, attachment);
-    }
-});
-
-TenmaGabriel.on('message', message => {
-    if (message.content === '이') {
-        const buffer = fs.readFileSync('2.gif');
-        
-        const attachment = new Attachment(buffer, '2.gif');
-
-
-        message.channel.send(`${message.author}`, attachment);
-    }
-});
-
-
-TenmaGabriel.on('message', message => {
-    if (message.content === '가즈아') {
-        const buffer = fs.readFileSync('가즈아.gif');
-        
-        const attachment = new Attachment(buffer, '가즈아.gif');
-
-
-        message.channel.send(`${message.author}`, attachment);
-    }
-});
-
-TenmaGabriel.on('message', message => {
-    if (message.content === '감동') {
-        const buffer = fs.readFileSync('감동.gif');
-        
-        const attachment = new Attachment(buffer, '감동.gif');
-
-
-        message.channel.send(`${message.author}`, attachment);
-    }
-});
-
-
-TenmaGabriel.on('message', message => {
-    if (message.content === '이꾸요잇') {
-        const buffer = fs.readFileSync('2.gif');
-        
-        const attachment = new Attachment(buffer, '2.gif');
-
-
-        message.channel.send(`${message.author}`, attachment);
-    }
-});
-
+  
 
 
 TenmaGabriel.on('ready', () => {
