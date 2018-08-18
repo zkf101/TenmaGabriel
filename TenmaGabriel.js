@@ -10,3 +10,5 @@ TenmaGabriel.on("message", message => {
         message.reply('pong');
     }
 });
+
+TenmaGabriel.login(process.env.BOT_TOKEN);
