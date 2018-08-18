@@ -3,7 +3,6 @@ const TenmaGabriel = new Discord.Client();
 const google = require("google");
 const YTDL = require("ytdl-core");
 const { Client, Attachment } = require('discord.js');
-const fs = require('fs');
 const commando = require('discord.js-commando');
 const bot = new commando.Client();
 
