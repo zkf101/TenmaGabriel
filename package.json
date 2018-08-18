@@ -3,10 +3,10 @@
   "description":"Test",
   "version":"0.0.0",
   "main": "TenmaGabriel.js"
-  "scripts"{
+  "scripts": {
   "start": "node TenmaGabriel.js"
   },
-  "dependencies" : {
+  "dependencies": {
     "discord.js": "11.1.0",
     "request": "2.81.0"
     }
